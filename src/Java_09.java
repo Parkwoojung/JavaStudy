@@ -12,9 +12,9 @@ public class Java_09 {
         int c = sc.nextInt();
 
         System.out.println((a+b)%c);
-        System.out.println((a%c) + (b%c)%c);
+        System.out.println(((a%c) + (b%c))%c);
         System.out.println((a*b)%c);
-        System.out.println((a%c)*(b%c)%c);
+        System.out.println(((a%c)*(b%c))%c);
 
     }
 }
