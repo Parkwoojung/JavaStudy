@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 //(a+b)%c는 ((a%c) + (b%c))%c와 같을까? 프로그램
+// 문제를 잘 보자!!
 public class Java_09 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in); //Scanner 클래스를 사용하기 위한 코드 new로 메모리에 올린다.
